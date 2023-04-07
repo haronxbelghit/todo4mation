@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9351842329DF57A200E4089E /* todo4mationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351842229DF57A200E4089E /* todo4mationApp.swift */; };
-		9351842529DF57A300E4089E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351842429DF57A300E4089E /* ContentView.swift */; };
+		9351842529DF57A300E4089E /* TopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351842429DF57A300E4089E /* TopicsView.swift */; };
 		9351842729DF57A500E4089E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9351842629DF57A500E4089E /* Assets.xcassets */; };
 		9351842A29DF57A500E4089E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9351842929DF57A500E4089E /* Preview Assets.xcassets */; };
 		9351843229DF57DF00E4089E /* Todo4mationModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9351843029DF57DF00E4089E /* Todo4mationModel.xcdatamodeld */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		9351841F29DF57A200E4089E /* todo4mation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo4mation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9351842229DF57A200E4089E /* todo4mationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo4mationApp.swift; sourceTree = "<group>"; };
-		9351842429DF57A300E4089E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9351842429DF57A300E4089E /* TopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsView.swift; sourceTree = "<group>"; };
 		9351842629DF57A500E4089E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9351842929DF57A500E4089E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9351843129DF57DF00E4089E /* Todo4mationModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todo4mationModel.xcdatamodel; sourceTree = "<group>"; };
@@ -62,14 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				9351842229DF57A200E4089E /* todo4mationApp.swift */,
-				9351842429DF57A300E4089E /* ContentView.swift */,
-				9351842629DF57A500E4089E /* Assets.xcassets */,
+				9351843929DF5BBA00E4089E /* PersistenceController.swift */,
+				9351842429DF57A300E4089E /* TopicsView.swift */,
+				9351843329DF586400E4089E /* TasksView.swift */,
+				9351843729DF59D300E4089E /* TaskRowView.swift */,
+				9351843529DF58BD00E4089E /* NewTaskView.swift */,
 				9351842829DF57A500E4089E /* Preview Content */,
 				9351843029DF57DF00E4089E /* Todo4mationModel.xcdatamodeld */,
-				9351843329DF586400E4089E /* TasksView.swift */,
-				9351843529DF58BD00E4089E /* NewTaskView.swift */,
-				9351843729DF59D300E4089E /* TaskRowView.swift */,
-				9351843929DF5BBA00E4089E /* PersistenceController.swift */,
+				9351842629DF57A500E4089E /* Assets.xcassets */,
 			);
 			path = todo4mation;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9351842529DF57A300E4089E /* ContentView.swift in Sources */,
+				9351842529DF57A300E4089E /* TopicsView.swift in Sources */,
 				9351843A29DF5BBA00E4089E /* PersistenceController.swift in Sources */,
 				9351843629DF58BD00E4089E /* NewTaskView.swift in Sources */,
 				9351843229DF57DF00E4089E /* Todo4mationModel.xcdatamodeld in Sources */,

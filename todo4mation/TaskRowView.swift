@@ -9,7 +9,6 @@ import SwiftUI
 
 struct TaskRowView: View {
     @Environment(\.managedObjectContext) private var viewContext
-    
     @FetchRequest(entity: Task.entity(),
                   sortDescriptors: [NSSortDescriptor(keyPath: \Task.date, ascending: true)])
     private var tasks: FetchedResults<Task>
@@ -38,8 +37,6 @@ struct TaskRowView: View {
         }
     }
 }
-
-
 
 struct TaskRowView_Previews: PreviewProvider {
     static var previews: some View {
