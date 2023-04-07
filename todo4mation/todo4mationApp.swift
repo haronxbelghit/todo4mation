@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import CoreData
 
 @main
 struct todo4mationApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+    let persistenceController = PersistenceController.shared
+
+        var body: some Scene {
+            WindowGroup {
+                ContentView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            }
         }
-    }
 }
